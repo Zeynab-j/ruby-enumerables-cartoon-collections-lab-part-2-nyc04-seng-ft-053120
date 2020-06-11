@@ -12,7 +12,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
    planeteer_calls.map {|planeteer_call| "#{planeteer_call.capitalize}!"}
  end
-   planeteer_calls
+  summon_captain_planet(planeteer_calls)
 
 
 def long_planeteer_calls(planeteer_calls)
